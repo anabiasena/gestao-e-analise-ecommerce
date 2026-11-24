@@ -1,0 +1,8 @@
+﻿tabela_origem,campo,tabela_referencia,linhas_sem_correspondencia,valores_nulos_na_origem
+olist_orders_dataset.csv,customer_id,olist_customers_dataset.csv,0,0
+olist_order_items_dataset.csv,order_id,olist_orders_dataset.csv,0,0
+olist_order_items_dataset.csv,product_id,olist_products_dataset.csv,0,0
+olist_order_items_dataset.csv,seller_id,olist_sellers_dataset.csv,0,0
+olist_order_payments_dataset.csv,order_id,olist_orders_dataset.csv,0,0
+olist_order_reviews_dataset.csv,order_id,olist_orders_dataset.csv,0,0
+olist_products_dataset.csv,product_category_name,product_category_name_translation.csv,13,610

@@ -1,0 +1,53 @@
+﻿arquivo,finalidade,variavel
+olist_customers_dataset.csv,Identificação e localização dos clientes ligados aos pedidos,customer_id
+olist_customers_dataset.csv,Identificação e localização dos clientes ligados aos pedidos,customer_unique_id
+olist_customers_dataset.csv,Identificação e localização dos clientes ligados aos pedidos,customer_zip_code_prefix
+olist_customers_dataset.csv,Identificação e localização dos clientes ligados aos pedidos,customer_city
+olist_customers_dataset.csv,Identificação e localização dos clientes ligados aos pedidos,customer_state
+olist_orders_dataset.csv,"Status e datas de compra, aprovação, envio e entrega",order_id
+olist_orders_dataset.csv,"Status e datas de compra, aprovação, envio e entrega",customer_id
+olist_orders_dataset.csv,"Status e datas de compra, aprovação, envio e entrega",order_status
+olist_orders_dataset.csv,"Status e datas de compra, aprovação, envio e entrega",order_purchase_timestamp
+olist_orders_dataset.csv,"Status e datas de compra, aprovação, envio e entrega",order_approved_at
+olist_orders_dataset.csv,"Status e datas de compra, aprovação, envio e entrega",order_delivered_carrier_date
+olist_orders_dataset.csv,"Status e datas de compra, aprovação, envio e entrega",order_delivered_customer_date
+olist_orders_dataset.csv,"Status e datas de compra, aprovação, envio e entrega",order_estimated_delivery_date
+olist_order_items_dataset.csv,"Produtos e vendedores de cada pedido, preços e frete",order_id
+olist_order_items_dataset.csv,"Produtos e vendedores de cada pedido, preços e frete",order_item_id
+olist_order_items_dataset.csv,"Produtos e vendedores de cada pedido, preços e frete",product_id
+olist_order_items_dataset.csv,"Produtos e vendedores de cada pedido, preços e frete",seller_id
+olist_order_items_dataset.csv,"Produtos e vendedores de cada pedido, preços e frete",shipping_limit_date
+olist_order_items_dataset.csv,"Produtos e vendedores de cada pedido, preços e frete",price
+olist_order_items_dataset.csv,"Produtos e vendedores de cada pedido, preços e frete",freight_value
+olist_products_dataset.csv,"Categorias, descrições e características físicas dos produtos",product_id
+olist_products_dataset.csv,"Categorias, descrições e características físicas dos produtos",product_category_name
+olist_products_dataset.csv,"Categorias, descrições e características físicas dos produtos",product_name_lenght
+olist_products_dataset.csv,"Categorias, descrições e características físicas dos produtos",product_description_lenght
+olist_products_dataset.csv,"Categorias, descrições e características físicas dos produtos",product_photos_qty
+olist_products_dataset.csv,"Categorias, descrições e características físicas dos produtos",product_weight_g
+olist_products_dataset.csv,"Categorias, descrições e características físicas dos produtos",product_length_cm
+olist_products_dataset.csv,"Categorias, descrições e características físicas dos produtos",product_height_cm
+olist_products_dataset.csv,"Categorias, descrições e características físicas dos produtos",product_width_cm
+olist_sellers_dataset.csv,Identificação e localização dos vendedores,seller_id
+olist_sellers_dataset.csv,Identificação e localização dos vendedores,seller_zip_code_prefix
+olist_sellers_dataset.csv,Identificação e localização dos vendedores,seller_city
+olist_sellers_dataset.csv,Identificação e localização dos vendedores,seller_state
+olist_order_payments_dataset.csv,"Forma, parcelas e valores de pagamento dos pedidos",order_id
+olist_order_payments_dataset.csv,"Forma, parcelas e valores de pagamento dos pedidos",payment_sequential
+olist_order_payments_dataset.csv,"Forma, parcelas e valores de pagamento dos pedidos",payment_type
+olist_order_payments_dataset.csv,"Forma, parcelas e valores de pagamento dos pedidos",payment_installments
+olist_order_payments_dataset.csv,"Forma, parcelas e valores de pagamento dos pedidos",payment_value
+olist_order_reviews_dataset.csv,"Notas, comentários e datas de avaliações dos pedidos",review_id
+olist_order_reviews_dataset.csv,"Notas, comentários e datas de avaliações dos pedidos",order_id
+olist_order_reviews_dataset.csv,"Notas, comentários e datas de avaliações dos pedidos",review_score
+olist_order_reviews_dataset.csv,"Notas, comentários e datas de avaliações dos pedidos",review_comment_title
+olist_order_reviews_dataset.csv,"Notas, comentários e datas de avaliações dos pedidos",review_comment_message
+olist_order_reviews_dataset.csv,"Notas, comentários e datas de avaliações dos pedidos",review_creation_date
+olist_order_reviews_dataset.csv,"Notas, comentários e datas de avaliações dos pedidos",review_answer_timestamp
+olist_geolocation_dataset.csv,Coordenadas e localidades associadas a prefixos de CEP,geolocation_zip_code_prefix
+olist_geolocation_dataset.csv,Coordenadas e localidades associadas a prefixos de CEP,geolocation_lat
+olist_geolocation_dataset.csv,Coordenadas e localidades associadas a prefixos de CEP,geolocation_lng
+olist_geolocation_dataset.csv,Coordenadas e localidades associadas a prefixos de CEP,geolocation_city
+olist_geolocation_dataset.csv,Coordenadas e localidades associadas a prefixos de CEP,geolocation_state
+product_category_name_translation.csv,Tradução de nomes de categorias de produtos,product_category_name
+product_category_name_translation.csv,Tradução de nomes de categorias de produtos,product_category_name_english
